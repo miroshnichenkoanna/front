@@ -1,0 +1,107 @@
+body {
+	background-color: rgb(233, 161, 90);
+}
+
+
+.main__elements__control {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 18px;
+
+}
+
+h1 {
+	color: red;
+	font-size: 3rem;
+}
+
+.content__page {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container__user {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 18px;
+}
+
+.red__text {
+	color: rgb(255, 217, 0);
+}
+
+.task__container {
+	display: flex;
+	align-items: center;
+	background: rgb(255, 217, 0);
+	border-radius: 8px;
+	margin-bottom: 5px;
+	box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0);
+}
+
+.task__container:hover {
+	border: 1px solid rgb(250, 172, 17);
+	border-radius: 7px;
+	background: rgb(255, 212, 3) linear-gradient(rgb(255, 212, 3), rgb(248, 157, 23));
+	box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0);
+	transition: box-shadow .2s, border-color .2s;
+
+}
+
+.text__task {
+	font-size: 18px;
+	color: black;
+}
+
+.done__text {
+	color: rgba(77, 34, 34, 0.3);
+	text-decoration: line-through;
+}
+
+
+.add__btn {
+	display: inline-block;
+	color: black;
+	font-size: 110%;
+	font-weight: 700;
+	text-decoration: none;
+	user-select: none;
+	padding: .25em .5em;
+	outline: none;
+	border: 1px solid rgb(250, 172, 17);
+	border-radius: 7px;
+	background: rgb(255, 212, 3) linear-gradient(rgb(255, 212, 3), rgb(248, 157, 23));
+	box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0);
+	transition: box-shadow .2s, border-color .2s;
+}
+
+.add__btn:hover {
+	box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, .5);
+}
+
+.add__btn:active {
+	padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+	border-color: rgba(177, 159, 0, 1);
+	box-shadow: inset 0 -1px 1px rgba(0, 0, 0, .1), inset 0 1px 2px rgba(0, 0, 0, .3), inset 0 0 0 60px rgba(255, 255, 0, .45);
+}
+
+
+.add__task {
+	height: 22px;
+	border: 2px solid rgb(238, 127, 0);
+	border-radius: 8px;
+	box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0);
+}
+
+.task__container input {
+	background: rgb(214, 149, 8);
+	border: rgb(238, 127, 0);
+	border-radius: 8px;
+}
